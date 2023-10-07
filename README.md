@@ -10,7 +10,7 @@
 
 ### install KVM and docker
 
-    # apt install qemu-kvm libvirt-bin bridge-utils
+    # apt install qemu-kvm libvirt-daemon-system libvirt-clients bridge-utils
     # apt install vim tree curl docker.io make gcc
 
 fetch kernel and rootfs:
